@@ -1,0 +1,56 @@
+
+/* ------ 이벤트 Header Card ------ */
+.cardContainer{
+    animation: fadeIn 1.5s ease-in-out;
+    border-radius: 24px;
+    background: #FFF;
+    text-align: left;
+    padding: 20px;
+    margin-bottom: 32px;
+}
+.cardImageContainer{
+    text-align: center;
+}
+.cardImage{
+    animation: fadeIn 1.5s ease-in-out;
+    width: 174px;   
+    padding: 20px;
+}
+.cardTitle{
+    padding-bottom: 2px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.cardDesc{
+    padding-top: 14px;
+    color: #000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+}
+/* ------ 애니메이션 ------ */
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+@keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+.cardContainer.animated, .cardImage.animated {
+    animation-play-state: running;
+ }

@@ -1,0 +1,144 @@
+.container{
+    
+}
+
+.header{
+    background-color: #EAEBEF;
+    padding:50px 24px;
+}
+
+.primaryColor{
+    color: #0046FF;
+}
+
+
+.headerSubTitle{
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.headerTitle{
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 18px;
+}
+
+
+.applyButton{
+    border-radius: 30px;
+    background: linear-gradient(90deg, #0094FF 0%, #0046FF 114.29%);
+    padding: 16px;
+    width: 100%;
+    
+    color: #FEFEFE;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.16px;
+
+    /* padding을 포함해서 가로 길이를 계산해준다 */
+    box-sizing: border-box;
+}
+
+.infoContainer{
+    padding-bottom: 48px;
+}
+
+
+.linkSection{
+    background-color: #EAEBEF;
+    padding-bottom:12px;
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+}
+.linkContentContainer{
+    max-height: 0;
+    overflow-y: hidden;
+    transition: all 700ms;
+}
+.itemOpen{
+    max-height: 500px;
+    display: block;
+}
+
+/* ------ 유의사항 섹션 ------ */
+.noticeSction{
+    margin-top: 12px;
+    background-color: white;    
+    padding: 24px;
+}
+.noticeTitle{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 28px;
+}
+.noticeText{
+    color: #444444;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    list-style-type: square;
+}
+.footer{
+    color: #878787;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 120px 0px 60px;
+}
+
+.tabMenuContainer{
+    display: flex;
+    justify-content: center;
+    gap:8px;
+    padding:8px;
+}
+
+.roundBadge{
+    height: 20px;
+    padding: 2px 12px;
+    font-size: 12px;
+    width: fit-content;
+    margin-bottom:8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 1px solid #111;
+    border-radius: 20px;
+    color: #111;
+    font-weight: 400;
+    letter-spacing: -0.025em;
+}
+
+.event{
+    padding-bottom: 60px;
+}
+.strongnoticeText {
+    color: #df1c23;
+}
+.StyleText {
+    color: #888;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    list-style-type: none; /* 표준 글머리표를 숨깁니다. */
+    margin-top: 60px;
+    margin-left: -10px;
+}
