@@ -18,7 +18,7 @@ jobs:
       - name: Build app
         run: npm run build
         env:
-          REACT_APP_SERVER_URL: ${{ secrets.SERVER_URL }}
+          CI: false
 
       - name: Deploy To s3
         env:
